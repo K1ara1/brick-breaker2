@@ -1,0 +1,11 @@
+.game-content{
+    height: 100vh;
+    width: 100vw;
+   
+}
+
+#playField{
+    background-color: black;
+    height: 500;
+    width: 500;
+}
