@@ -1,14 +1,16 @@
 export class Ball {
     width: number;
     height: number;
-    speed: number;
+    speedX: number;
+    speedY: number;
     x: number;
     y: number;
    
     constructor(
     width: number,
     height: number,
-    speed: number,
+    speedX: number,
+    speedY: number,
     x: number,
     y: number,
     ) {
@@ -16,6 +18,7 @@ export class Ball {
         this.y = y;
         this.width = width;
         this.height = height;
-        this.speed = speed;
+        this.speedX = speedX;
+        this.speedY = speedY
     }
 }
